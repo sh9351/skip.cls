@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "e학습터 자동 스킵",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://*.edunet.net/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
